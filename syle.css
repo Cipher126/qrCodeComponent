@@ -23,7 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
+.subContainer {
   padding: 10px;
   border-radius: 15px;
   box-sizing: border-box;
@@ -31,21 +31,24 @@ html {
   align-items: center;
   background: hsl(0, 0%, 100%);
   margin: 5px;
-  height: 550px;
-  width: 350px;
+  height: 450px;
+  width: 300px;
   box-shadow: inset;
 }
 
 .imageContainer {
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 30px;
   overflow: hidden;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
 }
 
 .imageContainer img {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -57,11 +60,12 @@ html {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
   align-content: center;
   justify-content: center;
   margin-left: 15px;
+  font-style: bold;
 }
 
 p {
@@ -72,6 +76,7 @@ p {
   word-wrap: break-word;
   max-width: 250px;
   margin-left: 15px;
+  color: hsl(218, 44%, 22%);
 }
 
 .attribution {
@@ -79,7 +84,7 @@ p {
 }
 
 @media (max-width: 400px) {
-  .container {
+  .subContainer {
     max-width: 95%;
     padding: 10px;
   }
